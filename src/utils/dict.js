@@ -1,5 +1,5 @@
 /**
- * Created by 芋道源码
+ * Created by open-beacon
  *
  * 数据字典工具类
  */

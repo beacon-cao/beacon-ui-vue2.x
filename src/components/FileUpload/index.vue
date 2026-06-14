@@ -151,7 +151,7 @@ export default {
     // 上传成功回调
     handleUploadSuccess(res, file) {
       if (res.code === 0) {
-        // edit by 芋道源码
+        // edit by open-beacon
         this.uploadList.push({ name: res.data, url: res.data });
         this.uploadedSuccessfully();
       } else {

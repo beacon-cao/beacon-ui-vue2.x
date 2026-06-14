@@ -37,7 +37,6 @@ module.exports = {
       // detail: https://cli.vuejs.org/config/#devserver-proxy
       ['/proxy-api']: {
         target: `http://localhost:7525`,
-        // target: `http://api-dashboard.yudao.iocoder.cn`,
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_BASE_API]: ''
